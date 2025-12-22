@@ -1,10 +1,3 @@
-import logo from "../assets/logo.svg"
-import email from "../assets/email.svg"
-import X from "../assets/x.svg"
-import instagram from "../assets/insta.svg"
-import LinkedIn from "../assets/linkedIn.svg"
-import right from "../assets/Arrow.svg"
-
 const Footer = () => {
   return (
     <>
