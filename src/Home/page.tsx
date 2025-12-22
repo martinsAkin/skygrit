@@ -6,7 +6,7 @@ import gear from "../assets/automation.svg"
 import Plug from "../assets/integration.svg"
 import lock from "../assets/secure.svg"
 import analytics from "../assets/visibility.svg"
-import logoRepeat from "../assets/logoRepeat.svg"
+// import logoRepeat from "../assets/logoRepeat.svg"
 import { ButtonsWithIcons } from "../components/Buttons";
 import { CardsCenter, CardsEdge, CardsInstant, SolutionCard } from "../components/Cards";
 import { OurImpact, TakeControl } from "../components/OurImpact";
@@ -42,13 +42,13 @@ const Home = () => {
     </div>
    </section>
 
-    <div className="w-full bg-[#F7FAFC]">
+    {/* <div className="w-full bg-[#F7FAFC]">
         <img src={logoRepeat} alt="image" />
-    </div>
+    </div> removed from figma */}
 
    <section className="bg-[#F7FAFC] pt-10 pb-6">
     <div className="text-center">
-     <h1 className="text-2xl font-georama">The Skygrit Solution</h1>
+     <h1 className="text-2xl font-georama font-bold">The Skygrit Solution</h1>
      <span className="inline-block my-4 px-10 lg:w-200">
       Skygrit integrates seamlessly into your existing systems to resolve
       disruptions automatically, protecting revenue while delighting passengers
@@ -67,7 +67,7 @@ const Home = () => {
       <CardsInstant
         bg="bg-[#0B897B]"
         cardTitle= "Instant Resolutions"
-        cardBody= "Get actionable Insights with reporting and analytics that track performance, compliance and passenger experience. Make data-driven decisions to continuosly improve operations."
+        cardBody= "Handle cancellations, re-routing, and refunds in minutes, not weeks. Automated workflows eliminate delays and provide passengers with immediate options, dramatically improving satisfaction during stressful disruptions"
         icon={Instant}
       />
 
@@ -87,7 +87,7 @@ const Home = () => {
       <CardsCenter
         bg="bg-[#17499E]"
         cardTitle= "Seamless Integration"
-        cardBody= "Get actionable Insights with reporting and analytics that track performance, compliance and passenger experience. Make data-driven decisions to continuosly improve operations."
+        cardBody= "Connects with Passenger Service Systems, Flight Information Systems, and more. RESTful APIs and pre-built connectors ensure rapid deployment with minimal IT overhead."
         icon={Plug}
       />
       <CardsEdge
@@ -100,8 +100,8 @@ const Home = () => {
       <CardsCenter
         bg="bg-white"
         textcolor="text-black"
-        cardTitle= "Instant Resolutions"
-        cardBody= "Get actionable Insights with reporting and analytics that track performance, compliance and passenger experience. Make data-driven decisions to continuosly improve operations."
+        cardTitle= "Secure & Compliant"
+        cardBody= "Enterprise-grade security with full audit trails, SOC 2 compliant infrastructure with encrypted data transmission, role-based access control, and comprehensive compliance documentation."
         icon={lock}
       />
       </div>

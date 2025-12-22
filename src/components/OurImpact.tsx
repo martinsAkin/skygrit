@@ -72,7 +72,7 @@ export const TakeControl = () => {
         <h1 className="text-xl lg:text-2xl font-georama font-black">Take Control of Airline Disruptions</h1>
         <span className="text-[14px] w-90 lg:w-100">Be one of the first airlines to deliver automated, compliant, and passenger-friendly disruption management.</span>
 
-        <div className="flex items-center justify-center gap-4 max-lg:flex-col">
+        <div className="flex items-center justify-center gap-4 flex-wrap">
          <ButtonsWithIcons 
           bg_color="bg-[#0B897B]"
           iconUrl={earlyAccess} 

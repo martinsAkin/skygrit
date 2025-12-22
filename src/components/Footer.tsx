@@ -1,41 +1,39 @@
+import logo from "../assets/logo.svg"
+import email from "../assets/email.svg"
+import proceed from "../assets/Arrow.svg"
+import X from "../assets/x.svg"
+import Instagram from "../assets/insta.svg"
+import LinkedIn from "../assets/linkedIn.svg"
+
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[#0A2540]">
-        <div className="max-lg:w-full max-lg:pl-10 max-md:p-6 lg:w-250 flex flex-col max-lg:items-start justify-self-center justify-between">
-            <section className="flex max-lg:flex-col justify-between py-8 max-md:items-start max-md:gap-6 text-white">
-              <ol className="flex flex-col gap-4 list-none font-georama">
-                <h1 className="text-[#0B897B] font-semibold text-[20px] mb-2">Company</h1>
-                <li>About Skygrit</li>
-                <li>Our Team</li>
-                <li>Careers</li>
-                <li>Press & Media</li>
-              </ol>
-              <ol className="flex flex-col gap-4 list-none font-georama">
-                <h1 className="text-[#0B897B] font-semibold text-[20px] mb-2">Product</h1>
-                <li>Features</li>
-                <li>Integration</li>
-                <li>Security</li>
-                <li>Pricing</li>
-              </ol>
-              <ol className="flex flex-col gap-4 list-none font-georama">
-                <h1 className="text-[#0B897B] font-semibold text-[20px] mb-2">Resources</h1>
-                <li>Documentation</li>
-                <li>Case Studies</li>
-                <li>Blog</li>
-                <li>Support</li>
-              </ol>
+      <div className="w-full bg-white">
+        <div className="max-lg:w-full max-lg:pl-10 p-6 lg:w-250 flex max-lg:flex-col max-lg:gap-10 max-lg:items-start justify-self-center justify-between">
+            <img src={logo} alt="image" className="h-10"/>
 
-              <ol className="flex flex-col gap-4 list-none font-georama">
-                <h1 className="text-[#0B897B] font-semibold text-[20px] mb-2">Contact</h1>
-                <li>Lagos, Nigeria</li>
-                <li>contact@skygrit.com</li>
-                <li>+234 XXX XXX XXX</li>            
-              </ol>
-              
-            </section>
-            <hr className="border-white border-0.5"/>
-            <span className="text-[12px] my-6 text-white text-center">2025 Skygrit. All rights reserved. | Privacy Policy | Terms of Service</span>
+            <ol className="list-none flex gap-2">
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+            </ol>
+
+            <div className="flex items-start gap-4 flex-col">
+              <h1 className="text-2xl text-[#17499E]">Subscribe to our Newsletter</h1>
+              <div className="flex items-center border-b border-b-gray-500 shadow-md p-1.5 gap-3">
+                <img src={email} alt="icon" />
+                <input 
+                  type="text" 
+                  placeholder="Type your e-mail"
+                  className="p-2 w-45 lg:w-55"
+                />
+                <img src={proceed} alt="icon" />
+              </div>
+              <nav className="flex gap-0 items-center">
+                <img src={X} alt="icon" />
+                <img src={Instagram} alt="icon" />
+                <img src={LinkedIn} alt="icon" />
+              </nav>
+            </div>
         </div>
       </div>
     </>

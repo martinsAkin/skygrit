@@ -11,10 +11,10 @@ export const ButtonsWithIcons = ({
 }: ButtonProps) => {
  return (
   <>
-   <div className={`${bg_color} px-2.5 lg:px-8 py-4 w-60 rounded-md`}>
+   <div className={`${bg_color} px-2.5 lg:px-8 py-4 w-55 rounded-md lg:w-60`}>
     <div className="flex items-center gap-2 justify-center">
      <img src={iconUrl} alt="icon" />
-     <span className="text-[12px]">{button_text}</span>
+     <span className="text-[10px] lg:text-[12px]">{button_text}</span>
     </div>
    </div>
   </>
