@@ -75,7 +75,7 @@ const Home = () => {
       <CardsInstant
         bg="bg-[#0B897B]"
         cardTitle= "Instant Resolutions"
-        cardBody= "Handle cancellations, re-routing, and refunds in minutes, not weeks. Automated workflows eliminate delays and provide passengers with immediate options, dramatically improving satisfaction during stressful disruptions"
+        cardBody= "Handle cancellations, re-routing, and refunds in minutes, not weeks. Automated workflows eliminate delays and provide passengers with immediate options, dramatically improving satisfaction during stressful disruptions."
         icon={Instant}
       />
 
