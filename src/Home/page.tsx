@@ -60,10 +60,21 @@ const Home = () => {
     </div>
    </section>
 
-   <section className="flex flex-col items-center justify-self-center justify-center py-16">
+   <section className="flex flex-col items-center justify-self-center justify-center py-16 w-full">
       <h2 className="text-2xl lg:text-3xl font-georama font-bold">Why Airlines Choose Skygrit</h2>
       
-      <div className="grid sm:grid-cols-1 gap-6 justify-center justify-self-center lg:gap-x-10 mt-6 md:grid-cols-2">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6"> */}
+      <div className="
+        grid
+        grid-cols-1
+        md:grid-cols-2
+        gap-6
+        mt-6
+        justify-items-center
+        md:justify-items-stretch
+      ">
+
+
       <CardsInstant
         bg="bg-[#0B897B]"
         cardTitle= "Instant Resolutions"

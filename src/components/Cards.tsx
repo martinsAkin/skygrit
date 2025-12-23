@@ -60,7 +60,7 @@ interface WhyCardsProps{
 export const CardsEdge = ({bg, cardTitle, cardBody, textcolor="text-white", icon}:WhyCardsProps) => {
   return(
     <>
-      <div className={`relative ${bg} rounded-2xl border border-gray-200 max-md:w-80 lg:w-120 h-145 lg:h-120 overflow-hidden max-lg:w-90`}>
+      <div className={`relative ${bg} w-80 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
             <h1 className={`font-semibold text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>
@@ -78,7 +78,7 @@ export const CardsEdge = ({bg, cardTitle, cardBody, textcolor="text-white", icon
 export const CardsInstant = ({bg, cardTitle, cardBody, textcolor="text-white", icon}:WhyCardsProps) => {
   return(
     <>
-      <div className={`relative ${bg} rounded-2xl border border-gray-200 max-md:w-80 lg:w-120 h-145 lg:h-120 overflow-hidden max-lg:w-90`}>
+      <div className={`relative ${bg} w-80 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
             <h1 className={`font-semibold text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>
@@ -96,7 +96,7 @@ export const CardsInstant = ({bg, cardTitle, cardBody, textcolor="text-white", i
 export const CardsCenter = ({bg, cardTitle, cardBody, textcolor="text-white", icon}:WhyCardsProps) => {
   return(
     <>
-      <div className={`relative ${bg} rounded-2xl border border-gray-200 max-md:w-80 lg:w-120 h-145 lg:h-120 overflow-hidden max-lg:w-90`}>
+      <div className={`relative ${bg} w-80 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
             <h1 className={`font-semibold text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>
