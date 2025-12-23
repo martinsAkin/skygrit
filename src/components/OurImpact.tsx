@@ -32,12 +32,12 @@ export const OurImpact = () => {
          <img src={skygrit} alt="image" className="h-100"/>
          <section className="w-100 p-2">
           <h2 className="text-3xl font-black mb-4 font-georama">Our Impact</h2>
-          <h2 className="text-xl font-bold w-85 mx-auto">Airlines usign Skygrit achieve measurable results within the first 90 days</h2>
+          <h2 className="text-xl font-bold w-85 mx-auto font-georama">Airlines using Skygrit achieve measurable results within the first 90 days</h2>
           <ol className="grid grid-cols-1 lg:grid-cols-2 text-center gap-4 w-85 mt-6 max-lg:grid-cols-2 mx-auto">
             {impact.map((details, index) => (
               <div key={index}>
-                <h1 className="text-orange-600 text-2xl font-black">{details.figure}</h1>
-                <span className="inline-block mt-4 text-[13px]">{details.body}</span>
+                <h1 className="text-orange-600 text-2xl font-black font-georama">{details.figure}</h1>
+                <span className="inline-block mt-2 text-[13px]">{details.body}</span>
               </div>
             ))}
           </ol>
@@ -85,7 +85,7 @@ export const TakeControl = () => {
         />
         </div>
 
-        <span className="text-[12px] max-md:text-[10px]">Join leading airlines transforming post-booking experience</span>
+        <span className="text-[12px] max-md:text-[10px] italic font-light">Join leading airlines transforming post-booking experience</span>
       </section>
 
      </div>

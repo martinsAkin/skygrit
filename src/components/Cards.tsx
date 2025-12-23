@@ -42,7 +42,7 @@ export const SolutionCard = () => {
      >
       <img src={details.logo} alt="icon" className="w-12.5" />
       <p className="font-bold mt-4 font-georama">{details.title}</p>
-      <span className="inline-block text-[12px] my-4 w-55 lg:w-50">{details.body}</span>
+      <span className="inline-block text-[12px] my-4 w-55 lg:w-50 text-[#5A6C7D]">{details.body}</span>
      </div>
     ))}
    </div>
@@ -62,7 +62,7 @@ export const CardsEdge = ({bg, cardTitle, cardBody, textcolor="text-white", icon
     <>
       <div className={`relative ${bg} rounded-2xl border border-gray-200 max-md:w-80 lg:w-120 h-145 lg:h-120 overflow-hidden max-lg:w-90`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
-            <h1 className={`font-black text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
+            <h1 className={`font-semibold text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>
           </div>
           <img 
@@ -80,7 +80,7 @@ export const CardsInstant = ({bg, cardTitle, cardBody, textcolor="text-white", i
     <>
       <div className={`relative ${bg} rounded-2xl border border-gray-200 max-md:w-80 lg:w-120 h-145 lg:h-120 overflow-hidden max-lg:w-90`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
-            <h1 className={`font-black text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
+            <h1 className={`font-semibold text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>
           </div>
           <img 
@@ -98,7 +98,7 @@ export const CardsCenter = ({bg, cardTitle, cardBody, textcolor="text-white", ic
     <>
       <div className={`relative ${bg} rounded-2xl border border-gray-200 max-md:w-80 lg:w-120 h-145 lg:h-120 overflow-hidden max-lg:w-90`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
-            <h1 className={`font-black text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
+            <h1 className={`font-semibold text-2xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>
           </div>
           <img 

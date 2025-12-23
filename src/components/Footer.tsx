@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <div className="w-full bg-white">
-        <div className="max-lg:w-full max-lg:pl-10 p-6 lg:w-250 flex max-lg:flex-col max-lg:gap-10 max-lg:items-start justify-self-center justify-between">
+        <div className="max-lg:w-full max-lg:pl-10 p-6 lg:w-250 flex max-lg:flex-col max-lg:gap-10 max-lg:items-center justify-self-center justify-between">
             <img src={logo} alt="image" className="h-10"/>
 
             <ol className="list-none flex gap-2">
