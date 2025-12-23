@@ -42,10 +42,6 @@ const Home = () => {
     </div>
    </section>
 
-    {/* <div className="w-full bg-[#F7FAFC]">
-        <img src={logoRepeat} alt="image" />
-    </div> removed from figma */}
-
    <section className="bg-[#F7FAFC] pt-10 pb-6">
     <div className="text-center">
      <h1 className="text-3xl font-inter font-bold">The Skygrit Solution</h1>
@@ -54,7 +50,7 @@ const Home = () => {
       disruptions automatically, protecting revenue while delighting passengers
      </span>
 
-     <div>
+     <div className="flex justify-self-center">
       <SolutionCard />
      </div>
     </div>
@@ -70,7 +66,8 @@ const Home = () => {
         md:grid-cols-2
         gap-6
         mt-6
-        justify-items-center
+        items-center
+        justify-center
         md:justify-items-stretch
       ">
 
