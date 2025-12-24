@@ -56,7 +56,7 @@ export const OurImpact = () => {
 export const TakeControl = () => {
   return (
     <>
-     <div className="w-full relative bg-gradient-to-b from-[#0A2540] to-[#051829] h-100 lg:h-80 ">
+     <div className="w-full flex items-center justify-center relative bg-gradient-to-b from-[#0A2540] to-[#051829] h-100 lg:h-80 ">
       <img 
        src={left} 
        alt="image" 
@@ -68,7 +68,7 @@ export const TakeControl = () => {
        className="absolute right-0 h-80 max-md:hidden"
       />
 
-      <section className="text-center flex flex-col justify-center items-center justify-self-center text-white gap-4 w-90 lg:w-130 py-10 h-full">
+      <section className="text-center flex flex-col justify-center items-center mx-auto text-white gap-4 w-90 lg:w-130 py-10 h-full">
         <h1 className="text-xl lg:text-2xl font-georama font-black">Take Control of Airline Disruptions</h1>
         <span className="text-[14px] w-90 lg:w-100">Be one of the first airlines to deliver automated, compliant, and passenger-friendly disruption management.</span>
 
