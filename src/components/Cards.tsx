@@ -38,7 +38,7 @@ export const SolutionCard = () => {
         {cardData.map((details, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg max-w-[16rem]"
+            className="bg-white p-6 rounded-lg max-w-[16rem] text-left"
           >
             <img src={details.logo} alt="icon" className="w-12" />
             <p className="font-bold mt-4 font-georama">{details.title}</p>
