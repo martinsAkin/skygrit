@@ -33,21 +33,23 @@ export const SolutionCard = () => {
  ];
 
  return (
-  <>
-   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
-    {cardData.map((details, index) => (
-     <div
-      key={index}
-      className="bg-white p-6 text-left rounded-lg w-75 lg:w-60 h-65"
-     >
-      <img src={details.logo} alt="icon" className="w-12.5" />
-      <p className="font-bold mt-4 font-georama">{details.title}</p>
-      <span className="inline-block text-[12px] my-4 w-55 lg:w-50 text-[#5A6C7D]">{details.body}</span>
-     </div>
-    ))}
-   </div>
-  </>
- );
+    <div className="w-full flex justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {cardData.map((details, index) => (
+          <div
+            key={index}
+            className="bg-white p-6 rounded-lg max-w-[16rem]"
+          >
+            <img src={details.logo} alt="icon" className="w-12" />
+            <p className="font-bold mt-4 font-georama">{details.title}</p>
+            <p className="text-[12px] my-4 text-[#5A6C7D]">
+              {details.body}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 interface WhyCardsProps{
