@@ -27,7 +27,7 @@ const Home = () => {
       experience that protects revenue and builds customer loyalty.
      </span>
 
-     <div className="flex gap-6 items-center">
+     <div className="flex max-md:flex-col gap-6 items-center">
      <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
         <ButtonsWithIcons
          bg_color="bg-[#0B897B]"
