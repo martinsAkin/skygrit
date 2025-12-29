@@ -16,7 +16,7 @@ const Home = () => {
  return (
   <>
    <section className="bg-hero-section h-full">
-    <div className="h-max w-[85%] lg:py-50 text-white max-lg:pt-[50%] max-lg:ml-[5%] lg:ml-45 lg:w-180">
+    <div className="h-max w-[85%] lg:py-50 text-white max-lg:pt-[50%] max-lg:ml-[5%] lg:ml-45 lg:w-180 flip-orientation">
      <h2 className="font-black font-georama text-[25px] sm:text-2xl md:text-3xl lg:text-4xl leading-normal">
       Revolutionizing Post-Booking Airline Customer Experience in Nigeria and
       Africa
@@ -28,16 +28,20 @@ const Home = () => {
      </span>
 
      <div className="flex gap-6 items-center">
-      <ButtonsWithIcons
-       bg_color="bg-[#0B897B]"
-       button_text="Request a Demo"
-       iconUrl={demo}
-      />
-      <ButtonsWithIcons
-       bg_color="bg-[#17499E]"
-       button_text="Talk to our Team"
-       iconUrl={phone}
-      />
+     <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+        <ButtonsWithIcons
+         bg_color="bg-[#0B897B]"
+         button_text="Request a Demo"
+         iconUrl={demo}
+        />
+      </a>
+      <a href="https://wa.me/+2347050247379" target="_blank" rel="noopener noreferrer">
+        <ButtonsWithIcons
+        bg_color="bg-[#17499E]"
+        button_text="Talk to our Team"
+        iconUrl={phone}
+        />
+      </a>
      </div>
     </div>
    </section>
@@ -101,7 +105,7 @@ const Home = () => {
       <CardsEdge
         bg="bg-[#F37021]"
         cardTitle= "Real-Time Visibility"
-        cardBody= "Get actionable Insights with reporting and analytics that track performance, compliance and passenger experience. Make data-driven decisions to continuously improve operations."
+        cardBody= "Get actionable insights with reporting and analytics that track performance, compliance and passenger experience. Make data-driven decisions to continuously improve operations."
         icon= {analytics}
       />
 
@@ -123,7 +127,7 @@ const Home = () => {
       <TakeControl />
     </section>
 
-    <Footer/>
+    {/* <Footer/> */}
   </>
  );
 };

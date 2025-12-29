@@ -73,16 +73,20 @@ export const TakeControl = () => {
         <span className="text-[14px] w-90 lg:w-100">Be one of the first airlines to deliver automated, compliant, and passenger-friendly disruption management.</span>
 
         <div className="flex items-center justify-center gap-4 flex-wrap">
-         <ButtonsWithIcons 
-          bg_color="bg-[#0B897B]"
-          iconUrl={earlyAccess} 
-          button_text="Request Early Access"
-         />
-        <ButtonsWithIcons 
-         bg_color="bg-[#17499E]"
-         iconUrl={phone} 
-         button_text="Talk to Our Team"
-        />
+        <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer">
+          <ButtonsWithIcons 
+            bg_color="bg-[#0B897B]"
+            iconUrl={earlyAccess} 
+            button_text="Request Early Access"
+          />
+        </a>
+        <a href="https://wa.me/+2347050247379" target="_blank" rel="noopener noreferrer">
+          <ButtonsWithIcons 
+          bg_color="bg-[#17499E]"
+          iconUrl={phone} 
+          button_text="Talk to Our Team"
+          />
+        </a>
         </div>
 
         <span className="text-[12px] max-md:text-[10px] italic font-light">Join leading airlines transforming post-booking experience</span>

@@ -16,7 +16,9 @@ const Navbar = () => {
      <button className="font-semibold text-black px-4 py-2">Solutions</button>
      <button className="font-semibold text-black px-4 py-2">Benefits</button>
      <button className="font-semibold text-black px-4 py-2">Impacts</button>
-     <button className="bg-[#0B897B] text-white px-4 py-2 rounded-lg">Request Demo</button>
+     <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer">
+      <button className="bg-[#0B897B] text-white px-4 py-2 rounded-lg cursor-pointer">Request Demo</button>
+    </a>
     </div>
 
     {/* <div className="max-md:block max-lg:hidden lg:hidden px-4 py-2 bg-gray-600" onClick={openMenuBar}>=</div>

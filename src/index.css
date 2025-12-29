@@ -24,4 +24,12 @@
   background-size: cover;
   height: 100dvh;
  }
+ @media (orientation: landscape) and (max-width < 1024){
+  .bg-hero-section{
+   height: calc(100dvh + 5rem);
+  }
+  .flip-orientation{
+   padding-top: 6.5rem;
+  }
+ }
 }

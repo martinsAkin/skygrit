@@ -29,9 +29,15 @@ const Footer = () => {
                 <img src={proceed} alt="icon" />
               </div>
               <nav className="flex gap-0 items-center">
-                <img src={X} alt="icon" />
-                <img src={Instagram} alt="icon" />
-                <img src={LinkedIn} alt="icon" />
+                <a href= "https://x.com/Juneinfra" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                  <img src={X} alt="icon" />
+                </a>
+                <a href="https://instagram.com/june.infra/" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                  <img src={Instagram} alt="icon" />
+                </a>
+                <a href="https://www.linkedin.com/company/june.infra/" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                  <img src={LinkedIn} alt="icon" />
+                </a>
               </nav>
             </div>
         </div>
