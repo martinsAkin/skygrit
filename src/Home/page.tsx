@@ -14,7 +14,7 @@ import { OurImpact, TakeControl } from "../components/OurImpact";
 
 const Home = () => {
  return (
-  <>
+  <div className="overflow-hidden">
    <section className="bg-hero-section h-full">
     <div className="h-max w-[85%] lg:py-50 text-white max-lg:pt-[50%] max-lg:ml-[5%] lg:ml-45 lg:w-180 flip-orientation">
      <h2 className="font-black font-georama text-[25px] sm:text-2xl md:text-3xl lg:text-4xl leading-normal">
@@ -46,7 +46,7 @@ const Home = () => {
     </div>
    </section>
 
-   <section className="bg-[#F7FAFC] pt-10 pb-6">
+   <section className="bg-[#F7FAFC] pt-10 pb-6" id="solutions">
     <div className="text-center">
      <h1 className="text-3xl font-inter font-bold">The Skygrit Solution</h1>
      <span className="inline-block my-4 px-10 lg:w-200 text-[#5A6C7D]">
@@ -60,7 +60,7 @@ const Home = () => {
     </div>
    </section>
 
-   <section className="flex flex-col items-center justify-self-center justify-center py-16 w-full">
+   <section className="flex flex-col items-center justify-self-center justify-center py-16 w-full" id="benefits">
       <h2 className="text-2xl lg:text-3xl font-georama font-bold">Why Airlines Choose Skygrit</h2>
       
       {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6"> */}
@@ -120,7 +120,7 @@ const Home = () => {
 
     </section>
 
-    <section>
+    <section id="impacts">
       <OurImpact />
     </section>
     <section>
@@ -128,7 +128,7 @@ const Home = () => {
     </section>
 
     {/* <Footer/> */}
-  </>
+  </div>
  );
 };
 

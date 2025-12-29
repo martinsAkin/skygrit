@@ -13,9 +13,15 @@ const Navbar = () => {
    <nav className="flex justify-between items-center">
     <img src={skygritLogo} alt="logo" className="w-25" />
     <div className="max-md:hidden flex gap-2 items-center">
-     <button className="font-semibold text-black px-4 py-2">Solutions</button>
-     <button className="font-semibold text-black px-4 py-2">Benefits</button>
-     <button className="font-semibold text-black px-4 py-2">Impacts</button>
+      <a href="#solutions">
+        <button className="font-semibold text-black px-4 py-2 cursor-pointer">Solutions</button>
+      </a>
+      <a href="#benefits">
+        <button className="font-semibold text-black px-4 py-2 cursor-pointer">Benefits</button>
+      </a>
+      <a href="#impacts">
+        <button className="font-semibold text-black px-4 py-2 cursor-pointer">Impacts</button>
+      </a>
      <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer">
       <button className="bg-[#0B897B] text-white px-4 py-2 rounded-lg cursor-pointer">Request Demo</button>
     </a>
