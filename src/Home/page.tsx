@@ -10,7 +10,7 @@ import phone from "../assets/teamTalkPhone.svg"
 import { ButtonsWithIcons } from "../components/Buttons";
 import { CardsCenter, CardsEdge, CardsInstant, SolutionCard } from "../components/Cards";
 import { OurImpact, TakeControl } from "../components/OurImpact";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 const Home = () => {
  return (
