@@ -38,7 +38,7 @@ export const SolutionCard = () => {
         {cardData.map((details, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg max-w-[16rem] text-left"
+            className="bg-white p-6 rounded-lg max-w-[16rem] text-left transition-all duration-100 hover:-translate-y-1 hover:shadow-lg"
           >
             <img src={details.logo} alt="icon" className="w-12" />
             <p className="font-bold mt-4 font-georama">{details.title}</p>
@@ -62,7 +62,7 @@ interface WhyCardsProps{
 export const CardsEdge = ({bg, cardTitle, cardBody, textcolor="text-white", icon}:WhyCardsProps) => {
   return(
     <>
-      <div className={`relative ${bg} w-80 lg:w-90 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden`}>
+      <div className={`relative ${bg} w-80 lg:w-90 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden transition-all duration-100 hover:-translate-y-1 hover:shadow-lg`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
             <h1 className={`font-semibold text-xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>
@@ -80,7 +80,7 @@ export const CardsEdge = ({bg, cardTitle, cardBody, textcolor="text-white", icon
 export const CardsInstant = ({bg, cardTitle, cardBody, textcolor="text-white", icon}:WhyCardsProps) => {
   return(
     <>
-      <div className={`relative ${bg} w-80 lg:w-90 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden`}>
+      <div className={`relative ${bg} w-80 lg:w-90 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden transition-all duration-100 hover:-translate-y-1 hover:shadow-lg`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
             <h1 className={`font-semibold text-xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>
@@ -98,7 +98,7 @@ export const CardsInstant = ({bg, cardTitle, cardBody, textcolor="text-white", i
 export const CardsCenter = ({bg, cardTitle, cardBody, textcolor="text-white", icon}:WhyCardsProps) => {
   return(
     <>
-      <div className={`relative ${bg} w-80 lg:w-90 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden`}>
+      <div className={`relative ${bg} w-80 lg:w-90 rounded-2xl border border-gray-200 h-145 lg:h-120 overflow-hidden transition-all duration-100 hover:-translate-y-1 hover:shadow-lg`}>
           <div className={`px-6 pt-6 ${textcolor}`}>
             <h1 className={`font-semibold text-xl ${textcolor} mb-4 font-georama`}>{cardTitle}</h1>
             <span className="inline-block text-[15px] leading-tight">{cardBody}</span>

@@ -17,6 +17,21 @@
 }
 
 @layer utilities {
+ .nav-extra-btns {
+  font-weight: 600;
+  color: black;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all;
+  animation-duration: 100ms;
+
+  &:hover {
+   border: none;
+   border-radius: 0.5rem;
+   transform: translateY(-3px);
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+ }
  .bg-hero-section {
   background-image: url("assets/herobackground.svg");
   background-position: center;

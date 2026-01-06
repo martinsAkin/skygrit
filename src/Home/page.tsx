@@ -15,7 +15,7 @@ import { OurImpact, TakeControl } from "../components/OurImpact";
 const Home = () => {
  return (
   <div className="overflow-hidden">
-   <section className="bg-hero-section h-full">
+   <section className="bg-hero-section h-full" id="home">
     <div className="h-max w-[85%] lg:py-50 text-white max-lg:pt-[50%] max-lg:ml-[5%] lg:ml-45 lg:w-180 flip-orientation">
      <h2 className="font-black font-georama text-[25px] sm:text-2xl md:text-3xl lg:text-4xl leading-normal">
       Revolutionizing Post-Booking Airline Customer Experience in Nigeria and
