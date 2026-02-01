@@ -48,8 +48,7 @@ const Home = () => {
     <div className="text-center">
      <h1 className="text-3xl font-inter font-bold">The Skygrit Solution</h1>
      <span className="inline-block my-4 px-10 lg:w-200 text-[#5A6C7D]">
-      Skygrit integrates seamlessly into your existing systems to resolve
-      disruptions automatically, protecting revenue while delighting passengers
+      Skygrit integrates with existing airline systems to provide a centralized operational layer that coordinates post-booking activities across operations, finance, and customer support teams.
      </span>
 
      <div className="flex justify-self-center">
