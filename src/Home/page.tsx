@@ -22,9 +22,7 @@ const Home = () => {
       Africa
      </h2>
      <span className="text-l inline-block my-6">
-      Skygrit enables airlines to manage cancellations, rerouting, refunds and
-      passenger alerts with full automation, delivering a seamless post-booking
-      experience that protects revenue and builds customer loyalty.
+      Skygrit helps airlines move from reactive firefighting to controlled disruption management, protecting revenue while preserving passenger confidence. More than a disruption tool, Skygrit serves as a revenue protection layer and a long-term competitive advantage for airlines operating in complex markets.
      </span>
 
      <div className="flex max-md:flex-col gap-6 items-center">
