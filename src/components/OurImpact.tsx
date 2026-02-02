@@ -9,11 +9,11 @@ export const OurImpact = () => {
  const impact = [
   {
    figure: "80%",
-   body: "Of cancellations resolved without human touch"
+   body: "of disruption cases managed and resolved without human touch"
   },
   {
    figure: "30%",
-   body: "Reduction in refund payouts through smart rebooking"
+   body: "Reduction in refund payouts"
   },
   {
    figure: "Minutes",
