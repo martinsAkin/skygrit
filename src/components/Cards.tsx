@@ -10,7 +10,7 @@ export const SolutionCard = () => {
    logo: automation,
    title: "Automate Disruption Management",
    body:
-    "Detect cancellations in real time and instantly offer passengers rebooking, re- routing, or refund options through intelligent automation.",
+    "Provides real-time visibility into service disruptions and enables timely, consistent passenger outcomes through intelligent coordination.",
   },
   {
    logo: time,
