@@ -18,7 +18,7 @@ const Home = () => {
    <section className="bg-hero-section h-full" id="home">
     <div className="h-max w-[85%] lg:py-40 text-white max-lg:pt-[30%] max-lg:ml-[5%] lg:ml-30 lg:w-180 flip-orientation">
      <h2 className="font-black font-georama text-[20px] sm:text-2xl md:text-3xl lg:text-4xl leading-normal">
-      Skygrit | Airline Infrastructure for Revenue Protection, Operational Recovery, and Passenger Continuity.
+      Airline Infrastructure for Revenue Protection, Operational Recovery, and Passenger Continuity.
      </h2>
      <span className="text-l inline-block my-4">
       Skygrit is a global airline infrastructure platform helping airlines reduce disruption related revenue leakage, operational inefficiencies, customer support pressure, and passenger churn.
