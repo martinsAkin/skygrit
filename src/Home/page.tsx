@@ -16,18 +16,18 @@ const Home = () => {
  return (
   <div className="overflow-hidden">
    <section className="bg-hero-section h-full" id="home">
-    <div className="h-max w-[85%] lg:py-50 text-white max-lg:pt-[50%] max-lg:ml-[5%] lg:ml-45 lg:w-180 flip-orientation">
-     <h2 className="font-black font-georama text-[25px] sm:text-2xl md:text-3xl lg:text-4xl leading-normal">
-      Revolutionizing Post-Booking Airline Customer Experience in Nigeria and
-      Africa
+    <div className="h-max w-[85%] lg:py-40 text-white max-lg:pt-[30%] max-lg:ml-[5%] lg:ml-30 lg:w-180 flip-orientation">
+     <h2 className="font-black font-georama text-[20px] sm:text-2xl md:text-3xl lg:text-4xl leading-normal">
+      Skygrit | Airline Infrastructure for Revenue Protection, Operational Recovery, and Passenger Continuity.
      </h2>
-     <span className="text-l inline-block my-6">
-      Skygrit enables airlines to manage cancellations, rerouting, refunds and
-      passenger alerts with full automation, delivering a seamless post-booking
-      experience that protects revenue and builds customer loyalty.
+     <span className="text-l inline-block my-4">
+      Skygrit is a global airline infrastructure platform helping airlines reduce disruption related revenue leakage, operational inefficiencies, customer support pressure, and passenger churn.
+     </span>
+     <span className="text-l inline-block my-2">
+      Flight disruptions remain one of the airline industry&#39;s largest operational and financial leakage globally. Delayed recovery processes, fragmented systems, manual workflows, and poor passenger coordination often lead to increased operational costs, refund backlog, regulatory exposure, passenger dissatisfaction, revenue loss, and declining customer lotyalty.
      </span>
 
-     <div className="flex max-md:flex-col gap-6 items-center">
+     <div className="flex max-md:flex-col gap-3 items-start max-md:pt-4 lg:pt-6">
      <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
         <ButtonsWithIcons
          bg_color="bg-[#0B897B]"
@@ -49,9 +49,8 @@ const Home = () => {
    <section className="bg-[#F7FAFC] pt-10 pb-6" id="solutions">
     <div className="text-center">
      <h1 className="text-3xl font-inter font-bold">The Skygrit Solution</h1>
-     <span className="inline-block my-4 px-10 lg:w-200 text-[#5A6C7D]">
-      Skygrit integrates seamlessly into your existing systems to resolve
-      disruptions automatically, protecting revenue while delighting passengers
+     <span className="inline-block my-4 max-md:px-4 px-10 lg:w-200 text-[#5A6C7D]">
+      Skygrit helps airlines modernize disruption management through centralized operational visibility, workflow orchestration, automation,and structured passenger recovery pathways.
      </span>
 
      <div className="flex justify-self-center">
