@@ -78,14 +78,14 @@ const Home = () => {
       <CardsInstant
         bg="bg-[#0B897B]"
         cardTitle= "Instant Resolutions"
-        cardBody= "Handle cancellations, re-routing, and refunds in minutes, not weeks. Automated workflows eliminate delays and provide passengers with immediate options, dramatically improving satisfaction during stressful disruptions."
+        cardBody= "Enables faster resolution of service disruptions, reducing delays and improving passenger experience through structured and coordinated post-booking operations."
         icon={Instant}
       />
 
       <CardsEdge
         bg="bg-white"
         cardTitle="Cashflow Protection"
-        cardBody="Gradually reduce refund payouts and keep more cash in the business. Smart rebooking incentives and automated alternatives reduce refund requests by up to 30%, protecting working capital."
+        cardBody="Helps airlines retain up to 30% more revenue during disruptions by reducing cash leakage and enabling shared revenue opportunities across post-booking operations."
         textcolor="text-black"
         icon={cashGive}
       />

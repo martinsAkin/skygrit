@@ -37,7 +37,7 @@ const Footer = () => {
                 <a href="https://instagram.com/june.infra/" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
                   <img src={Instagram} alt="icon" />
                 </a>
-                <a href="https://www.linkedin.com/company/june.infra/" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                <a href="https://www.linkedin.com/company/juneinfra/" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
                   <img src={LinkedIn} alt="icon" />
                 </a>
               </nav>
