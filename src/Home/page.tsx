@@ -24,7 +24,7 @@ const Home = () => {
       Skygrit is a global airline infrastructure platform helping airlines reduce disruption related revenue leakage, operational inefficiencies, customer support pressure, and passenger churn.
      </span>
      <span className="text-l inline-block my-2">
-      Flight disruptions remain one of the airline industry&#39;s largest operational and financial leakage globally. Delayed recovery processes, fragmented systems, manual workflows, and poor passenger coordination often lead to increased operational costs, refund backlog, regulatory exposure, passenger dissatisfaction, revenue loss, and declining customer lotyalty.
+      Flight disruptions remain one of the airline industry&#39;s largest operational and financial leakage globally. Delayed recovery processes, fragmented systems, manual workflows, and poor passenger coordination often lead to increased operational costs, refund backlog, regulatory exposure, passenger dissatisfaction, revenue loss, and declining customer loyalty.
      </span>
 
      <div className="flex max-md:flex-col gap-3 items-start max-md:pt-4 lg:pt-6">
