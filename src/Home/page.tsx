@@ -6,28 +6,39 @@ import Plug from "../assets/integration.svg"
 import lock from "../assets/secure.svg"
 import analytics from "../assets/visibility.svg"
 import phone from "../assets/teamTalkPhone.svg"
-// import logoRepeat from "../assets/logoRepeat.svg"
 import { ButtonsWithIcons } from "../components/Buttons";
 import { CardsCenter, CardsEdge, CardsInstant, SolutionCard } from "../components/Cards";
 import { OurImpact, TakeControl } from "../components/OurImpact";
-// import Footer from "../components/Footer";
+import hero1 from "../assets/herobg1.jpg"
+import hero2 from "../assets/herobg2.jpg"
+import hero3 from "../assets/herobg3.jpg"
+import hero4 from "../assets/herobg4.jpg"
+import hero5 from "../assets/herobg5.jpg"
+import heroMain from "../assets/herobackground.svg"
+import HeroBackgroundSlider from "../components/HeroBackgroundSlider";
+
 
 const Home = () => {
+
+  const heroSlides = [heroMain, hero1, hero2, hero3, hero4, hero5];
+  
  return (
   <div className="overflow-hidden">
    <section className="bg-hero-section h-full" id="home">
-    <div className="h-max w-[85%] lg:py-40 text-white max-lg:pt-[30%] max-lg:ml-[5%] lg:ml-30 lg:w-180 flip-orientation">
-     <h2 className="font-black font-georama text-[20px] sm:text-2xl md:text-3xl lg:text-4xl leading-normal">
+    <div className="h-max w-[85%] lg:py-40 text-white max-lg:pt-[30%] max-lg:ml-[5%] lg:ml-30 lg:w-250 flip-orientation lg:mt-20">
+      <HeroBackgroundSlider images={heroSlides} intervalMs={5000} />
+
+     <h2 className="font-black font-georama text-[20px] sm:text-2xl md:text-3xl lg:text-6xl leading-normal lg:leading-20">
       Airline Infrastructure for Revenue Protection, Operational Recovery, and Passenger Continuity
      </h2>
      <span className="text-l inline-block my-4">
       Skygrit is a global airline infrastructure platform helping airlines reduce disruption related revenue leakage, operational inefficiencies, customer support pressure, and passenger churn.
      </span>
-     <span className="text-l inline-block my-2">
-      Flight disruptions remain one of the airline industry&#39;s largest operational and financial leakage globally. Delayed recovery processes, fragmented systems, manual workflows, and poor passenger coordination often lead to increased operational costs, refund backlog, regulatory exposure, passenger dissatisfaction, revenue loss, and declining customer loyalty.
+     <span className="text-l inline-blocof the airlik my-2">
+      Flight disruptions remain one ne industry&#39;s largest operational and financial leakage globally. Delayed recovery processes, fragmented systems, manual workflows, and poor passenger coordination often lead to increased operational costs, refund backlog, regulatory exposure, passenger dissatisfaction, revenue loss, and declining customer loyalty.
      </span>
 
-     <div className="flex max-md:flex-col gap-3 items-start max-md:pt-4 lg:pt-6">
+     <div className="flex max-md:flex-col gap-3 items-start max-md:pt-4 lg:pt-6 max-sm:flex-row mt-8">
      <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
         <ButtonsWithIcons
          bg_color="bg-[#0B897B]"

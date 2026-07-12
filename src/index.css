@@ -33,7 +33,7 @@
   }
  }
  .bg-hero-section {
-  background-image: url("assets/herobackground.svg");
+  /* background-image: url("assets/herobackground.svg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
