@@ -50,7 +50,7 @@ const Home = () => {
     <div className="text-center">
      <h1 className="text-3xl font-inter font-bold">The Skygrit Solution</h1>
      <span className="inline-block my-4 max-md:px-4 px-10 lg:w-200 text-[#5A6C7D]">
-      Skygrit helps airlines modernize disruption management through centralized operational visibility, workflow orchestration, automation,and structured passenger recovery pathways.
+      Skygrit helps airlines modernize disruption management through centralized operational visibility, workflow orchestration, automation, and structured passenger recovery pathways.
      </span>
 
      <div className="flex justify-self-center">
