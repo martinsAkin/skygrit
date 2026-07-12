@@ -28,14 +28,14 @@ const Home = () => {
     <div className="h-max w-[85%] lg:py-40 text-white max-lg:pt-[30%] max-lg:ml-[5%] lg:ml-30 lg:w-250 flip-orientation lg:mt-20">
       <HeroBackgroundSlider images={heroSlides} intervalMs={5000} />
 
-     <h2 className="font-black font-georama text-[20px] sm:text-2xl md:text-3xl lg:text-6xl leading-normal lg:leading-20">
+     <h2 className="font-black font-georama text-[18px] md:text-3xl lg:text-6xl leading-normal lg:leading-20">
       Airline Infrastructure for Revenue Protection, Operational Recovery, and Passenger Continuity
      </h2>
-     <span className="text-l inline-block my-4">
+     <span className="text-[14px] lg:text-l inline-block my-2">
       Skygrit is a global airline infrastructure platform helping airlines reduce disruption related revenue leakage, operational inefficiencies, customer support pressure, and passenger churn.
      </span>
-     <span className="text-l inline-blocof the airlik my-2">
-      Flight disruptions remain one ne industry&#39;s largest operational and financial leakage globally. Delayed recovery processes, fragmented systems, manual workflows, and poor passenger coordination often lead to increased operational costs, refund backlog, regulatory exposure, passenger dissatisfaction, revenue loss, and declining customer loyalty.
+     <span className="text-[14px] lg:text-l inline-block my-2">
+      Flight disruptions remain one of the airline industry&#39;s largest operational and financial leakages globally. Delayed recovery processes, fragmented systems, manual workflows, and poor passenger coordination often lead to increased operational costs, refund backlog, regulatory exposure, passenger dissatisfaction, revenue loss, and declining customer loyalty.
      </span>
 
      <div className="flex max-md:flex-col gap-3 items-start max-md:pt-4 lg:pt-6 max-sm:flex-row mt-8">
