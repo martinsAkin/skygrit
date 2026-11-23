@@ -22,7 +22,7 @@ const Navbar = () => {
       <a href="#impacts">
         <button className="nav-extra-btns">Impacts</button>
       </a>
-     <a href="/SkygritPlatformDeployment.pdf" download="Skygrit-Platform-Deployment.pdf">
+     <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer">
       <button className="bg-[#0B897B] text-white px-4 py-2 rounded-lg cursor-pointer transition-all duration-100 hover:-translate-y-1 hover:shadow-lg">Request Demo</button>
     </a>
     </div>
