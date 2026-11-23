@@ -39,7 +39,7 @@ const Home = () => {
      </span>
 
      <div className="flex max-md:flex-col gap-3 items-start max-md:pt-4 lg:pt-6 max-sm:flex-row mt-8">
-     <a href="mailto:partnerships@juneinfra.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+     <a href="/SkygritPlatformDeployment.pdf" download="Skygrit-Platform-Deployment.pdf" className="cursor-pointer">
         <ButtonsWithIcons
          bg_color="bg-[#0B897B]"
          button_text="Request a Demo"
