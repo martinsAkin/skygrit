@@ -6,6 +6,7 @@ import Plug from "../assets/integration.svg"
 import lock from "../assets/secure.svg"
 import analytics from "../assets/visibility.svg"
 import phone from "../assets/teamTalkPhone.svg"
+import download from "../assets/download.svg"
 import { ButtonsWithIcons } from "../components/Buttons";
 import { CardsCenter, CardsEdge, CardsInstant, SolutionCard } from "../components/Cards";
 import { OurImpact, TakeControl } from "../components/OurImpact";
@@ -42,8 +43,8 @@ const Home = () => {
      <a href="/SkygritPlatformDeployment.pdf" download="Skygrit-Platform-Deployment.pdf" className="cursor-pointer">
         <ButtonsWithIcons
          bg_color="bg-[#0B897B]"
-         button_text="Request a Demo"
-         iconUrl={demo}
+         button_text="Deployment Plan"
+         iconUrl={download}
         />
       </a>
       <a href="https://wa.me/+2347050247379" target="_blank" rel="noopener noreferrer">
