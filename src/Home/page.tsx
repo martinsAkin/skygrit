@@ -1,4 +1,3 @@
-import demo from "../assets/demoBtn.svg";
 import cashGive from "../assets/cashflow.svg"
 import Instant from "../assets/instant.svg"
 import gear from "../assets/automation.svg"
